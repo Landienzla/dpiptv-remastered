@@ -1,0 +1,44 @@
+.navbarlinks:hover{
+    border-style: solid;
+    border-top: #8ebefe;
+    border-left: #8ebefe;
+    border-right: #8ebefe;
+    border-width: 2px;
+    text-shadow: #8ebefe;
+    margin-bottom: 1%;
+}
+.navbarbutton{
+    /* background-color:#8ebefe ; */
+    border-radius: 10px 40px;
+}
+.navbarbutton:hover {
+    margin-bottom: 1%;
+    background-color:#9ebefe;
+    border-style: solid;
+    border-top: #8ebefe;
+    border-left: #8ebefe;
+    border-right: #8ebefe;
+    border-width: 2px;
+}
+
+.active {
+    background-color: #89F0FF;
+    border-radius: 10px;
+    border-style: solid;
+    border-top: #8ebefe;
+    border-left: #8ebefe;
+    border-right: #8ebefe;
+    border-width: 2px;
+    text-shadow: #8ebefe;
+    margin-bottom: 1%;
+}
+.active-button{
+    background-color:#9ebefe;
+    border-style: solid;
+    border-top: #8ebefe;
+    border-left: #8ebefe;
+    border-right: #8ebefe;
+    border-width: 2px;
+    text-shadow: #8ebefe;
+    margin-bottom: 1%;
+}

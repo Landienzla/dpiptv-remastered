@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+// import IndexrouterComponent from './components/indexrouterComponent';
+import NavbarComponent from './components/NavbarComponent';
+import IndexComponent from './components/indexComponent';
+import InstallationComponent from './components/installationComponent';
+import SupportComponent from './components/supportComponent';
+import FaqComponent from './components/faqComponent';
+import ResellerComponent from './components/resellerComponent';
+import MagfixedComponent from './components/magfixedComponent';
+import TestlinkComponent from './components/testlinkComponent';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavbarComponent/>
+      <Router>
+        <Switch>
+          {/* <Route exact path="/" component={IndexrouterComponent}/> */}
+          <Route path="/home" component={IndexComponent}/>
+          <Route path="/installation" component={InstallationComponent}/>
+          <Route path="/support" component={SupportComponent}/>
+          <Route path="/faq" component={FaqComponent}/>
+          <Route path="/reseller" component={ResellerComponent}/>
+          <Route path="/mag-fixed" component={MagfixedComponent}/>
+          <Route path="/get-test-link" component={TestlinkComponent}/>
+        </Switch>
+      </Router>
+
     </div>
   );
 }
