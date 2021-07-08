@@ -14,7 +14,7 @@ import FaqComponent from './components/faqComponent';
 import ResellerComponent from './components/resellerComponent';
 import MagfixedComponent from './components/magfixedComponent';
 import TestlinkComponent from './components/testlinkComponent';
-
+import FooterComponent from './components/footerComponent'
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           <Route path="/get-test-link" component={TestlinkComponent}/>
         </Switch>
       </Router>
-
+      <FooterComponent/>
     </div>
   );
 }
