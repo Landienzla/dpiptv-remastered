@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Form, Row, Button } from "react-bootstrap";
+import {  Container, Form, Row, Button } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 export default function supportComponent() {
   return (
@@ -58,12 +58,12 @@ export default function supportComponent() {
             className="bg-light"
             type="text"
             placeholder="Message"
-            size="100px"
+            as="textarea"
           />
         </Form.Group>
         <div className="text-center">
           <Button className="bg-info pl-5 pr-5 mt-2" size="lg">
-            <Icon.Cursor className="mr-1" size={24} /> SEND
+            <Icon.Cursor className="mr-1" size={24} /><b>SEND</b> 
           </Button>
         </div>
       </Form>

@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { Navbar, Nav, Container, Button, Row } from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 export default function FooterComponent() {
   const homeRef = useRef();
