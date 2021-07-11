@@ -1,5 +1,5 @@
 import React from "react";
-import {  Container, Form, Row, Button } from "react-bootstrap";
+import { Container, Form, Row, Button } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 export default function supportComponent() {
   return (
@@ -12,7 +12,8 @@ export default function supportComponent() {
         <Form.Group controlId="Name">
           <Form.Label className="">Name </Form.Label>
           <Form.Control
-            className="bg-light"
+            className=""
+            style={{ backgroundColor: "#EFEFEF" }}
             type="text"
             placeholder="Name"
             required
@@ -20,13 +21,18 @@ export default function supportComponent() {
         </Form.Group>
         <Form.Group controlId="formBasicEmail">
           <Form.Label className="">Email </Form.Label>
-          <Form.Control className="bg-light" type="email" placeholder="Email" />
+          <Form.Control
+            className=""
+            style={{ backgroundColor: "#EFEFEF" }}
+            type="email"
+            placeholder="Email"
+          />
         </Form.Group>
         <Form.Group as={Row}>
           <Form.Label as="legend" column xs={4}>
             Reason for request
           </Form.Label>
-          <Container>
+          <Container >
             <Form.Check
               className="form-check-inline"
               type="radio"
@@ -55,7 +61,8 @@ export default function supportComponent() {
         <Form.Group controlId="Message">
           <Form.Label className="">Message </Form.Label>
           <Form.Control
-            className="bg-light"
+            className=""
+            style={{ backgroundColor: "#EFEFEF" }}
             type="text"
             placeholder="Message"
             as="textarea"
@@ -63,7 +70,8 @@ export default function supportComponent() {
         </Form.Group>
         <div className="text-center">
           <Button className="bg-info pl-5 pr-5 mt-2" size="lg">
-            <Icon.Cursor className="mr-1" size={24} /><b>SEND</b> 
+            <Icon.Cursor className="mr-1" size={24} />
+            <b>SEND</b>
           </Button>
         </div>
       </Form>
