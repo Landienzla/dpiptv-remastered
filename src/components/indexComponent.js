@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel, Button, Container, Row, Col } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 import CountUp from "react-countup";
+import "./indexComponent.css"
 export default function indexComponent() {
   return (
     <div>
@@ -19,7 +20,7 @@ function CarouselComponent() {
     <Carousel fade="true">
       <Carousel.Item interval={1000}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 carouseImg"
           width="100vh"
           height="800px"
           src="https://dpiptv.com/wp-content/uploads/2020/06/connectedworld.jpg"
@@ -263,7 +264,7 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>1 Week</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
@@ -288,12 +289,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>1 Month</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€20</h2>
                   </b>{" "}
                 </p>
                 <p>One Connection</p>
@@ -313,12 +314,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>2 Months</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€30</h2>
                   </b>{" "}
                 </p>
                 <p>One Connection</p>
@@ -341,12 +342,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>3 Months</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€40</h2>
                   </b>{" "}
                 </p>
                 <p>One Connection</p>
@@ -366,12 +367,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>6 Months</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€60</h2>
                   </b>{" "}
                 </p>
                 <p>One Connection</p>
@@ -391,12 +392,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>12 Months</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€90</h2>
                   </b>{" "}
                 </p>
                 <p>One Connection</p>
@@ -435,7 +436,7 @@ function PricingComponent() {
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€20</h2>
                   </b>{" "}
                 </p>
                 <p>
@@ -463,12 +464,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>1 MONTH</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€35</h2>
                   </b>{" "}
                 </p>
                 <p>
@@ -496,12 +497,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>2 MONTHS</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€45</h2>
                   </b>{" "}
                 </p>
                 <p>
@@ -533,12 +534,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>3 MONTHS</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€65</h2>
                   </b>{" "}
                 </p>
                 <p>
@@ -566,12 +567,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>6 MONTHS</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€90</h2>
                   </b>{" "}
                 </p>
                 <p>
@@ -601,12 +602,12 @@ function PricingComponent() {
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>1 WEEK</h2>
+                    <h2>12 MONTHS</h2>
                   </b>
                 </p>
                 <p style={{ fontSize: "24px" }}>
                   <b>
-                    <h2>€10</h2>
+                    <h2>€148</h2>
                   </b>{" "}
                 </p>
                 <p>
