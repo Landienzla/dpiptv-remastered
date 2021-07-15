@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel, Button, Container, Row, Col } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 import CountUp from "react-countup";
-import "./indexComponent.css"
+import "./indexComponent.css";
 export default function indexComponent() {
   return (
     <div>
@@ -194,7 +194,10 @@ function SecurePaymentsComponent() {
   return (
     <div className=" mt-3 ">
       <Container>
-        <h1 className="border-bottom border-grey mt-3" style={{ color: "#ACC59A" }}>
+        <h1
+          className="border-bottom border-grey mt-3"
+          style={{ color: "#ACC59A" }}
+        >
           <b>SECURE PAYMENTS WITH DPIPTV</b>
         </h1>
         <Row>
@@ -285,7 +288,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3 pb-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3 pb-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -310,7 +316,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3 pb-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3 pb-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -338,7 +347,10 @@ function PricingComponent() {
           </Row>
 
           <Row className="mt-5 mb-5">
-            <Col className="text-center pb-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center pb-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -363,7 +375,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3 pb-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3 pb-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -388,7 +403,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -460,7 +478,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -493,7 +514,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -563,7 +587,10 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3" style={{ backgroundColor: "#9AC2C5" }}>
+            <Col
+              className="text-center ml-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -596,10 +623,14 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col className="text-center ml-3" style={{ backgroundColor: "#9AC2C5" }}>
-            <div className="bestoffer bg-success " stlye={{  transform: `translateX(${50}px) translateY(${50}%)`}}>Best Offer</div>
-            {/* Need to transform best offer div */}
+
+            <Col
+              className="text-center ml-3"
+              style={{ backgroundColor: "#9AC2C5" }}
+            >
+              {/* Need to transform best offer div */}
               <Container>
+                <div className="bestoffer bg-success"> Best Offer </div>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
                     <h2>12 MONTHS</h2>
