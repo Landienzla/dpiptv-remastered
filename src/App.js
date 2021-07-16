@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       <NavbarComponent/>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           {/* <Route exact path="/" component={IndexrouterComponent}/> */}
           <Route path="/home" component={IndexComponent}/>
