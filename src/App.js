@@ -23,7 +23,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           {/* <Route exact path="/" component={IndexrouterComponent}/> */}
-          <Route path={process.env.PUBLIC_URL +"/home"} component={IndexComponent}/>
+          <Route path="/home" component={IndexComponent}/>
           <Route path="/installation" component={InstallationComponent}/>
           <Route path="/support" component={SupportComponent}/>
           <Route path="/faq" component={FaqComponent}/>

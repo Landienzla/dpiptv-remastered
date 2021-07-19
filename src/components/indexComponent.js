@@ -3,6 +3,7 @@ import { Carousel, Button, Container, Row, Col } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 import CountUp from "react-countup";
 import "./indexComponent.css";
+import Products from './products'
 export default function indexComponent() {
   return (
     <div>
@@ -262,8 +263,8 @@ function PricingComponent() {
               Different Server
             </p>
           </Col>
-          <Row>
-            <Col className="text-center" style={{ backgroundColor: "#9AC2C5" }}>
+          {/* <Row>
+            <Col className="text-center" style={{ backgroundColor: "#9AC2C5" }}xs="4">
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -288,68 +289,11 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col
-              className="text-center ml-3 pb-3"
-              style={{ backgroundColor: "#9AC2C5" }}
-            >
-              <Container>
-                <p className="mt-5" style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>1 Month</h2>
-                  </b>
-                </p>
-                <p style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>€20</h2>
-                  </b>{" "}
-                </p>
-                <p>One Connection</p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">Buy Now</Button>
-                </p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">
-                    <Icon.CurrencyBitcoin /> Pay With Bitcoin
-                  </Button>
-                </p>
-              </Container>
-            </Col>
-            <Col
-              className="text-center ml-3 pb-3"
-              style={{ backgroundColor: "#9AC2C5" }}
-            >
-              <Container>
-                <p className="mt-5" style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>2 Months</h2>
-                  </b>
-                </p>
-                <p style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>€30</h2>
-                  </b>{" "}
-                </p>
-                <p>One Connection</p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">Buy Now</Button>
-                </p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">
-                    <Icon.CurrencyBitcoin /> Pay With Bitcoin
-                  </Button>
-                </p>
-              </Container>
-            </Col>
           </Row>
-
           <Row className="mt-5 mb-5">
             <Col
               className="text-center pb-3"
-              style={{ backgroundColor: "#9AC2C5" }}
+              style={{ backgroundColor: "#9AC2C5" }} xs="4"
             >
               <Container>
                 <p className="mt-5" style={{ fontSize: "24px" }}>
@@ -375,65 +319,12 @@ function PricingComponent() {
                 </p>
               </Container>
             </Col>
-            <Col
-              className="text-center ml-3 pb-3"
-              style={{ backgroundColor: "#9AC2C5" }}
-            >
-              <Container>
-                <p className="mt-5" style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>6 Months</h2>
-                  </b>
-                </p>
-                <p style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>€60</h2>
-                  </b>{" "}
-                </p>
-                <p>One Connection</p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">Buy Now</Button>
-                </p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">
-                    <Icon.CurrencyBitcoin /> Pay With Bitcoin
-                  </Button>
-                </p>
-              </Container>
-            </Col>
-            <Col
-              className="text-center ml-3"
-              style={{ backgroundColor: "#9AC2C5" }}
-            >
-              <Container>
-                <p className="mt-5" style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>12 Months</h2>
-                  </b>
-                </p>
-                <p style={{ fontSize: "24px" }}>
-                  <b>
-                    <h2>€90</h2>
-                  </b>{" "}
-                </p>
-                <p>One Connection</p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">Buy Now</Button>
-                </p>
-                <div className="border border-info m-3 w-25 mx-auto" />
-                <p>
-                  <Button className="bg-info">
-                    <Icon.CurrencyBitcoin /> Pay With Bitcoin
-                  </Button>
-                </p>
-              </Container>
-            </Col>
-          </Row>
+          </Row> */}
+          <Products/>
         </Row>
       </Container>
+
+
       <Container>
         <Row>
           <Col className="text-center">
