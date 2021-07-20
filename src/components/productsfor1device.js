@@ -19,9 +19,10 @@ export default class products extends Component {
     return (
       <div className="bg-dark">
         <Row className="mt-5 mb-5">
-        {this.state.products.map((product) => (
-      
-          <Col xs="4" key={product._id} className="text-center border border-dark rounded mb-1" style={{ backgroundColor: "#9AC2C5"}}> 
+        {this.state.products
+            .filter((product) => product.productCategory.includes("1device"))
+            .map((product) => (
+              <Col xs="4" key={product._id} className="text-center border border-dark rounded pb-5" style={{ backgroundColor: "#9AC2C5"}}> 
               <Container >
                 <p className="mt-5" style={{ fontSize: "24px" }}>
                   <b>
@@ -46,7 +47,7 @@ export default class products extends Component {
                 </p>
               </Container>
           </Col>
-        ))}</Row>
+            ))}</Row>
       </div>
     );
   }
