@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { Component } from "react";
 import { Col, Container, Button, Row } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
+import './productsfor1device.css'
 export default class products2dv extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +24,7 @@ export default class products2dv extends Component {
             .filter((product) => product.productCategory.includes("2devices"))
             .map((product) => (
               <Col xs="4"
-                className="text-center border border-dark rounded pb-5"
+                className="text-center device pb-5"
                 style={{ backgroundColor: "#9AC2C5" }}
               >
                 <Container>
